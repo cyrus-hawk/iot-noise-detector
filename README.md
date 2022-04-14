@@ -1,6 +1,13 @@
-# This is the implementation code for the IoT project for the 2nd period of the autumn semester 2021
+# IoT Noise Detector
 
-## How to use this repo?
+This is the underlying code that processes the sound data that is being streamed by the sound detector, that is placed outside a room or house and connected to the local network. The result of the analysis is sent to an IoT cloud platform for visualization. SMTP protocol is used to notify the user about the detected sound via provided email credentials.
+
+# Video Demonstration
+The following is the presentation of the code in action:
+
+[![Watch the presentation](https://img.youtube.com/vi/AyNAi1XYQ00/hqdefault.jpg)](https://youtu.be/AyNAi1XYQ00)
+
+# How to use this repo?
 After cloning the repo, open up the file sound_detector.py and fill the proper information for the following variables:
 
 - IoT_platform_url
